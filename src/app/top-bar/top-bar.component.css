@@ -1,0 +1,19 @@
+.logo {
+  background-color: bisque;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: #03d4c6;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.menu button {
+  padding: 0 0.2rem;
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+.menu button :hover {
+  opacity: 0.5;
+}/*# sourceMappingURL=top-bar.component.css.map */

@@ -1,0 +1,23 @@
+@import "../../vars.scss";
+
+.logo {
+  background-color: bisque;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: $primary;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.menu {
+  button {
+    padding: 0 0.2rem;
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    :hover {
+      opacity: 0.5;
+    }
+  }
+}

@@ -6,4 +6,10 @@ app-top-bar {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+app-list {
+  display: flex;
+  border: 1px solid;
+  padding: 1rem;
 }/*# sourceMappingURL=app.component.css.map */

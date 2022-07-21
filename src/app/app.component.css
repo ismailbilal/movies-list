@@ -1,5 +1,6 @@
 app-top-bar {
-  background-color: #03d4c6;
+  background-color: rgb(3, 37, 65);
+  color: rgb(227, 227, 227);
   padding: 1rem;
   display: flex;
   flex-direction: row;

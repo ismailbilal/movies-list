@@ -1,12 +1,14 @@
 @import "../../vars.scss";
 
 .logo {
-  background-color: bisque;
   padding: 0.5rem;
   border-radius: 10px;
-  color: $primary;
-  font-size: 1.2em;
+  font-size: 1.8em;
+  font-weight: 800;
   cursor: pointer;
+  background: -webkit-linear-gradient(45deg, $tmdbLighterGreen, $tmdbLightBlue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu {
@@ -15,9 +17,10 @@
     background-color: transparent;
     border: none;
     font-size: 2em;
+    color: inherit;
     cursor: pointer;
     :hover {
-      opacity: 0.5;
+      opacity: 0.7;
     }
   }
 }

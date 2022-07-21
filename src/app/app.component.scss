@@ -1,7 +1,8 @@
 @import "../vars.scss";
 
 app-top-bar {
-  background-color: $primary;
+  background-color: $tmdbDarkBlue;
+  color: $lightGrey;
   padding: 1rem;
   display: flex;
   flex-direction: row;

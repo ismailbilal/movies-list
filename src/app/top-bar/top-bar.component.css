@@ -1,10 +1,12 @@
 .logo {
-  background-color: bisque;
   padding: 0.5rem;
   border-radius: 10px;
-  color: #03d4c6;
-  font-size: 1.2em;
+  font-size: 1.8em;
+  font-weight: 800;
   cursor: pointer;
+  background: -webkit-linear-gradient(45deg, rgb(192, 254, 207), rgb(1, 180, 228));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu button {
@@ -12,8 +14,9 @@
   background-color: transparent;
   border: none;
   font-size: 2em;
+  color: inherit;
   cursor: pointer;
 }
 .menu button :hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }/*# sourceMappingURL=top-bar.component.css.map */
